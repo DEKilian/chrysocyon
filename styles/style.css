@@ -82,3 +82,12 @@ body
 }
 
 /*En el caso de mi pagina, ya que los textos se encuentran colocados en distintas areas segun su finalidad y la pagina en la que se encuentre el usuario, me parecio mejor idea declarar distintos tipos de etiquetas 'p' para poder manejarlos de manera mas practica. Comprendo que quizas haya una maneras mas simples y que puedan generar menos confusion a medida que mi pagina crezca en complejidad, pero me parecio la opcion mas simple para resolverlo a esta altura del curso*/
+
+.elevate{
+    text-decoration: none;
+    color: black;
+}
+
+.elevate:hover {
+    color: red;
+}
