@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*font-family: "Ubuntu", sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/*font-family: "Titillium Web", sans-serif;*/
+
+/*en esta primer area de mi css solo indicare el estilo de mis etiquetas. De esta manera mantendre un orden visual que me ayude en posicionarme de mejor manera al momento de leerlo*/
+
+title {text-align: center;}
+
+
+p
+{
+    color: rgb(221, 191, 18);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 33px;
+    text-align: center;
+}
+
+h1
+{ 
+    color: rgb(151, 12, 12);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 40px;
+}
+
+h2
+{
+    color: rgb(151, 12, 12);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 36px;
+}
+
+body 
+{
+    background-color: rgb(196, 94, 11);
+}
+
+
+/*a partir de aca solo indicare el estilo de mis clases de etiqueta*/
+
+.p-alt
+{
+    text-align:left;
+    font-size: 22px;
+}
+
+.p-footer
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.p-advertencia
+{
+    text-align: left;
+    font-size: 10px;
+}
+
+.nav-li 
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-link 
+{
+    color: rgb(221, 191, 18);
+    text-decoration: none;
+}
+
+.cierre-parrafo 
+{
+    text-align: center;
+}
+
+.textos-extra
+{
+    font-family: "Titillium Web", sans-serif;
+    color: rgb(221, 191, 18);
+}
+
+/*En el caso de mi pagina, ya que los textos se encuentran colocados en distintas areas segun su finalidad y la pagina en la que se encuentre el usuario, me parecio mejor idea declarar distintos tipos de etiquetas 'p' para poder manejarlos de manera mas practica. Comprendo que quizas haya una maneras mas simples y que puedan generar menos confusion a medida que mi pagina crezca en complejidad, pero me parecio la opcion mas simple para resolverlo a esta altura del curso*/

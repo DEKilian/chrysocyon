@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="../styles/style.css">
+    
+    <title>Chryocys Dynamics</title>
+</head>
+
+<body>
+        <header>
+        <img src="../assets/logo-alpha.png" alt="">
+        <!--Aca va colocada mi barra de menu para navegar entre las paginas de mi web-->
+        <nav>
+            <ul class="textos-extra">
+                <li class="nav-li">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="./clinicas.html">Clinicas</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+  
+<!--Esta pagina servira para generar un contacto entre el usuario y la empresa. Sera utilizada para recaudar informacion en aquellos que este interesados en obtener los servicios de mi empresa y tambien tendran la opcion de suscribirse a nuestro newsletter-->
+
+    <main>
+        <section>
+        <h1>CONTACTANOS</h1>
+            <p>Por favor, complete la siguiente planilla y nos pondremos en contacto:</p>
+            <ol class="textos-extra">
+                <li>
+                    <form action="/submit" method="post"></form>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">    
+                </li>
+                 <li>
+                    <form action="/submit" method="post"></form>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">    
+                </li>
+                <li>
+                    <label for="sexo">Sexo</label>
+                    <select name="" id="">
+
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                        <option value="">Otro</option>
+                        <option value="">Prefiero no decirlo</option>
+
+                    </select>
+                </li>
+                <li>
+                    <form action="/submit" method="post"></form>
+                    <label for="mail">Mail</label>
+                    <input type="text" name="mail" id="mail">
+                </li>
+
+<!--ATENCION, el recuerdo de texto para el area de 'Motivo' deberia ser mucho mas grande que los del resto de esta lista ya que es un recuadro para ingresar una consulta. Pero dado a que un no tengo el conocimiento para extender su tamaño lo dejare momentaneamente con las medidas que trae por default-->
+
+                <li>
+                    <form action="/submit" method="post"></form>
+                    <label for="motivo">Motivo</label>
+                    <input type="text" name="motivo" id="motivo">
+                </li>
+            </ol>
+
+            <label for="subscribe" class="textos-extra">Quiero suscribirme y estar al dia con novedades y beneficios</label>
+            <input type="checkbox" name="subscribe" id="subscribe">
+
+            <input type="submit" value="enviar">
+
+        </section>
+    </main>
+    
+    <footer>
+        <p class="p-footer">© 2025 Dario Emanuel Kilian. Todos los Derechos Reservados.</p>
+    </footer>
+    
+  
+</body>
+</html>
