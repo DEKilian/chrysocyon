@@ -91,3 +91,17 @@ body
 .elevate:hover {
     color: red;
 }
+
+.row{
+    color: rgb(221, 191, 18);
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.row:hover{
+    color: red;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Titillium Web", sans-serif;
+}

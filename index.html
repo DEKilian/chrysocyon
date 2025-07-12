@@ -13,23 +13,23 @@
 
 <body>
     <header>
-        <img src="assets/logo-alpha.png" alt="">
+        <img class="col" src="assets/logo-alpha.png" alt="">
         <!--Aca va colocada mi barra de menu para navegar entre las paginas de mi web-->
         <nav>
-            <ul class="textos-extra">
-                <li class="nav-li">
+            <ul class="row">
+                <li class="col">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-li">
+                <li class="col">
                     <a class="nav-link" href="./pages/quienes-somos.html">Quienes somos</a>
                 </li>
-                <li class="nav-li">
+                <li class="col">
                     <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                 </li>
-                <li class="nav-li">
-                    <a class="nav-link" href="./clinicas.html">Clinicas</a>
+                <li class="col">
+                    <a class="nav-link" href="./pages/clinicas.html">Clinicas</a>
                 </li>
-                <li class="nav-li">
+                <li class="col">
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -39,14 +39,14 @@
 <!--Esta sera la pagina de bienvenida a mi web. Chrysocyon Dynamics es una falsa empresa dedicada a la modificacion corporal de manera futurista. En la misma se podra comprar partes y el servicio de instalacion de las mismas. En esta primera pagina, el home, solo colocare un texto introductorio a la filosofia de la empresa y adjuntare la opcion de ir de manera directa al apartado de 'servicios' al clickear en la frase 'JUNTOS'-->
         
     <main>
-        <section>
+        <section class="container-xl">
             <h1>BIENVENIDO A TU FUTURO</h1>
             <p>La carne y la mente han quedado en el pasado.</p>
             <p>El mundo ahora es digital.</p>
             <p>
              <a class="elevate" href="./pages/servicios.html">ELEVATE</a>
             </p>
-            <img src="assets/home-alpha.png" alt="">
+            <img class="col" src="assets/home-alpha.png" alt="">
         </section>
     </main>   
     
@@ -54,7 +54,9 @@
     <footer>
         <p class="p-footer">© 2025 Dario Emanuel Kilian. Todos los Derechos Reservados.</p>
     </footer>
-    
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </body>
 </html>
