@@ -8,6 +8,11 @@
 
 title {text-align: center;}
 
+a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+}
 
 p
 {
@@ -70,6 +75,12 @@ body
     text-decoration: none;
 }
 
+.nav-link:hover 
+{
+    color: red;
+    text-decoration: none;
+}
+
 .cierre-parrafo 
 {
     text-align: center;
@@ -92,16 +103,3 @@ body
     color: red;
 }
 
-.row{
-    color: rgb(221, 191, 18);
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Titillium Web", sans-serif;
-}
-
-.row:hover{
-    color: red;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Titillium Web", sans-serif;
-}
