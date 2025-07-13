@@ -103,3 +103,15 @@ body
     color: red;
 }
 
+.contacto {
+    text-decoration: none;
+    color: yellow;
+}
+
+.contacto:hover {
+    color: red;
+}
+
+.navbar {
+    background-color: rgb(85, 85, 79) !important;
+}
