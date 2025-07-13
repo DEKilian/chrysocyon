@@ -115,3 +115,22 @@ body
 .navbar {
     background-color: rgb(85, 85, 79) !important;
 }
+
+.navbar-toggler {
+    border-color: none;
+    outline-color: none; 
+    padding: 0;
+    transition: transform 0.3 ease;
+    border-radius: 50%;
+}
+
+.navbar-toggler:hover {
+    transform: rotate(90deg);
+}
+
+.navbar-toggler-icon {
+    border: none;
+    outline: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+}

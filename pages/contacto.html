@@ -51,46 +51,33 @@
         <h1>CONTACTANOS</h1>
             <p>Por favor, complete la siguiente planilla y nos pondremos en contacto:</p>
             <ol class="textos-extra">
-                <li>
-                    <form action="/submit" method="post"></form>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">    
-                </li>
-                 <li>
-                    <form action="/submit" method="post"></form>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido">    
-                </li>
-                <li>
-                    <label for="sexo">Sexo</label>
-                    <select name="" id="">
-
-                        <option value="">Hombre</option>
-                        <option value="">Mujer</option>
-                        <option value="">Otro</option>
-                        <option value="">Prefiero no decirlo</option>
-
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                    </div>
+                    <label for="sexo" class="form-label">Sexo</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccione una de estas opciones...</option>
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                        <option value="3">Otro</option>
                     </select>
-                </li>
-                <li>
-                    <form action="/submit" method="post"></form>
-                    <label for="mail">Mail</label>
-                    <input type="text" name="mail" id="mail">
-                </li>
-
-<!--ATENCION, el recuerdo de texto para el area de 'Motivo' deberia ser mucho mas grande que los del resto de esta lista ya que es un recuadro para ingresar una consulta. Pero dado a que un no tengo el conocimiento para extender su tamaño lo dejare momentaneamente con las medidas que trae por default-->
-
-                <li>
-                    <form action="/submit" method="post"></form>
-                    <label for="motivo">Motivo</label>
-                    <input type="text" name="motivo" id="motivo">
-                </li>
+                     <div class="mb-3">
+                        <label for="mail" class="form-label">Email</label>
+                        <input type="mail" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="consultas" class="form-label">Ingrese su consulta</label>
+                        <textarea class="form-control" id="consultas" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Quiero suscribirme y estar al dia con novedades y beneficios</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </ol>
-
-            <label for="subscribe" class="textos-extra">Quiero suscribirme y estar al dia con novedades y beneficios</label>
-            <input type="checkbox" name="subscribe" id="subscribe">
-
-            <input type="submit" value="enviar">
 
         </section>
     </main>
