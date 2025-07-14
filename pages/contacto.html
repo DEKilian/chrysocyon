@@ -12,9 +12,14 @@
 </head>
 
 <body>
-        <header>
-        <img class="img-fluid" src="../assets/logo-alpha.png" alt="">
-        <!--Aca va colocada mi barra de menu para navegar entre las paginas de mi web-->
+    <header>
+        
+        <section class="rows">
+            <img class="col-12" src="../assets/logo-alpha.png" alt="">
+        </section>
+
+        <!--Aca va colocada mi barra de menu para navegar entre las paginas de mi web. La misma es reactiva para convertirse en un menu tipo "hamburguesa" ante resoluciones de pantalla mas chicas-->
+        
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand">Chrysocyon</a>
@@ -47,7 +52,7 @@
 <!--Esta pagina servira para generar un contacto entre el usuario y la empresa. Sera utilizada para recaudar informacion en aquellos que este interesados en obtener los servicios de mi empresa y tambien tendran la opcion de suscribirse a nuestro newsletter-->
 
     <main>
-        <section>
+        <section class="container">
         <h1>CONTACTANOS</h1>
             <p>Por favor, complete la siguiente planilla y nos pondremos en contacto:</p>
             <ol class="textos-extra">
@@ -58,7 +63,7 @@
                     </div>
                     <label for="sexo" class="form-label">Sexo</label>
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione una de estas opciones...</option>
+                        <option selected>Seleccione una opcion...</option>
                         <option value="1">Hombre</option>
                         <option value="2">Mujer</option>
                         <option value="3">Otro</option>

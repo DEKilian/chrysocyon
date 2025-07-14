@@ -27,6 +27,7 @@ h1
     color: rgb(151, 12, 12);
     font-family: "Titillium Web", sans-serif;
     font-size: 40px;
+    font-weight: bold;
 }
 
 h2
@@ -34,6 +35,7 @@ h2
     color: rgb(151, 12, 12);
     font-family: "Titillium Web", sans-serif;
     font-size: 36px;
+    text-decoration: underline;
 }
 
 body 
@@ -92,8 +94,6 @@ body
     color: rgb(221, 191, 18);
 }
 
-/*En el caso de mi pagina, ya que los textos se encuentran colocados en distintas areas segun su finalidad y la pagina en la que se encuentre el usuario, me parecio mejor idea declarar distintos tipos de etiquetas 'p' para poder manejarlos de manera mas practica. Comprendo que quizas haya una maneras mas simples y que puedan generar menos confusion a medida que mi pagina crezca en complejidad, pero me parecio la opcion mas simple para resolverlo a esta altura del curso*/
-
 .elevate{
     text-decoration: none;
     color: black;
@@ -133,4 +133,16 @@ body
     outline: 12px;
     background-color: yellow;
     border-radius: 50%;
+}
+
+.btn {
+    background-color: rgb(85, 85, 79) !important;
+    border-color: none;
+    outline-color: none; 
+}
+
+.btn:hover {
+    background-color: red !important;
+    border-color: none;
+    outline-color: none; 
 }
