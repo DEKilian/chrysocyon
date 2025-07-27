@@ -1,3 +1,4 @@
+@use "../utilities/variables";
 
 .navbar {
     background-color: rgb(85, 85, 79);
@@ -19,7 +20,7 @@
 .navbar-toggler-icon {
     border: none;
     outline: 12px;
-    background-color: yellow;
+    background-color: variables.$p-yellow;
     border-radius: 50%;
 }
 
@@ -29,7 +30,7 @@
     outline-color: none; 
 
     &:hover {
-    background-color: red;
+    background-color: variables.$p-red;
     border-color: none;
     outline-color: none; 
     }
@@ -37,11 +38,11 @@
 
 .nav-link 
 {
-    color: rgb(221, 191, 18);
+    color: variables.$p-yellow;
     text-decoration: none;
 
     &:hover {
-    color: red;
+    color: variables.$p-red;
     text-decoration: none;
     }
 }

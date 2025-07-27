@@ -6,19 +6,6 @@
   padding: 0;
 }
 
-a {
-  list-style-type: none;
-  text-decoration: none;
-  font-family: "Titillium Web", sans-serif;
-}
-
-p {
-  color: rgb(221, 191, 18);
-  font-family: "Ubuntu", sans-serif;
-  font-size: 33px;
-  text-align: center;
-}
-
 /*font-family: "Titillium Web", sans-serif;*/
 .navbar {
   background-color: rgb(85, 85, 79);
@@ -38,7 +25,7 @@ p {
 .navbar-toggler-icon {
   border: none;
   outline: 12px;
-  background-color: yellow;
+  background-color: rgb(230, 198, 18);
   border-radius: 50%;
 }
 
@@ -48,17 +35,17 @@ p {
   outline-color: none;
 }
 .btn:hover {
-  background-color: red;
+  background-color: #bb130d;
   border-color: none;
   outline-color: none;
 }
 
 .nav-link {
-  color: rgb(221, 191, 18);
+  color: rgb(230, 198, 18);
   text-decoration: none;
 }
 .nav-link:hover {
-  color: red;
+  color: #bb130d;
   text-decoration: none;
 }
 
@@ -73,21 +60,21 @@ a {
 }
 
 p {
-  color: rgb(221, 191, 18);
+  color: rgb(230, 198, 18);
   font-family: "Ubuntu", sans-serif;
   font-size: 33px;
   text-align: center;
 }
 
 h1 {
-  color: rgb(151, 12, 12);
+  color: #bb130d;
   font-family: "Titillium Web", sans-serif;
   font-size: 40px;
   font-weight: bold;
 }
 
 h2 {
-  color: rgb(151, 12, 12);
+  color: #bb130d;
   font-family: "Titillium Web", sans-serif;
   font-size: 36px;
   text-decoration: underline;
@@ -104,7 +91,7 @@ body {
 
 .p-advertencia {
   text-align: left;
-  font-size: 10px;
+  font-size: 33px;
 }
 
 .nav-li {
@@ -118,23 +105,24 @@ body {
 
 .textos-extra {
   font-family: "Titillium Web", sans-serif;
-  color: rgb(221, 191, 18);
+  color: rgb(230, 198, 18);
 }
 
 .elevate {
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 .elevate:hover {
-  color: red;
+  color: #bb130d;
 }
 
 .contacto {
   text-decoration: none;
-  color: yellow;
+  color: rgb(230, 198, 18);
 }
 .contacto:hover {
-  color: red;
+  color: #bb130d;
 }
 
 footer p {
