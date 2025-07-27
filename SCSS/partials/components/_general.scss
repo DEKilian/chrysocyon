@@ -1,0 +1,85 @@
+title {text-align: center;}
+
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+}
+
+p
+{
+    color: rgb(221, 191, 18);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 33px;
+    text-align: center;
+}
+
+h1
+{ 
+    color: rgb(151, 12, 12);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2
+{
+    color: rgb(151, 12, 12);
+    font-family: "Titillium Web", sans-serif;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+body 
+{
+    background-color: rgb(196, 94, 11);
+}
+
+.p-alt
+{
+    text-align:left;
+    font-size: 22px;
+}
+
+
+.p-advertencia
+{
+    text-align: left;
+    font-size: 10px;
+}
+
+.nav-li 
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.cierre-parrafo 
+{
+    text-align: center;
+}
+
+.textos-extra
+{
+    font-family: "Titillium Web", sans-serif;
+    color: rgb(221, 191, 18);
+}
+
+.elevate{
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+    color: red;
+    }
+}
+
+.contacto {
+    text-decoration: none;
+    color: yellow;
+
+    &:hover {
+    color: red;
+    }
+}

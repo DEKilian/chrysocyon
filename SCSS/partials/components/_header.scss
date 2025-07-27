@@ -1,0 +1,47 @@
+
+.navbar {
+    background-color: rgb(85, 85, 79);
+}
+
+.navbar-toggler {
+    border-color: none;
+    outline-color: none; 
+    padding: 0;
+    transition: transform 0.3 ease;
+    border-radius: 50%;
+
+    &:hover {
+    transform: rotate(90deg);
+    }
+}
+
+
+.navbar-toggler-icon {
+    border: none;
+    outline: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: rgb(85, 85, 79);
+    border-color: none;
+    outline-color: none; 
+
+    &:hover {
+    background-color: red;
+    border-color: none;
+    outline-color: none; 
+    }
+}
+
+.nav-link 
+{
+    color: rgb(221, 191, 18);
+    text-decoration: none;
+
+    &:hover {
+    color: red;
+    text-decoration: none;
+    }
+}

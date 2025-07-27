@@ -1,148 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /*font-family: "Ubuntu", sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+}
+
+p {
+  color: rgb(221, 191, 18);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 33px;
+  text-align: center;
+}
+
 /*font-family: "Titillium Web", sans-serif;*/
-
-/*en esta primer area de mi css solo indicare el estilo de mis etiquetas. De esta manera mantendre un orden visual que me ayude en posicionarme de mejor manera al momento de leerlo*/
-
-title {text-align: center;}
-
-a{
-    list-style-type: none;
-    text-decoration: none;
-    font-family: "Titillium Web", sans-serif;
-}
-
-p
-{
-    color: rgb(221, 191, 18);
-    font-family: "Ubuntu", sans-serif;
-    font-size: 33px;
-    text-align: center;
-}
-
-h1
-{ 
-    color: rgb(151, 12, 12);
-    font-family: "Titillium Web", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-h2
-{
-    color: rgb(151, 12, 12);
-    font-family: "Titillium Web", sans-serif;
-    font-size: 36px;
-    text-decoration: underline;
-}
-
-body 
-{
-    background-color: rgb(196, 94, 11);
-}
-
-
-/*a partir de aca solo indicare el estilo de mis clases de etiqueta*/
-
-.p-alt
-{
-    text-align:left;
-    font-size: 22px;
-}
-
-.p-footer
-{
-    text-align: center;
-    color: aliceblue;
-    font-size: 12px;
-}
-
-.p-advertencia
-{
-    text-align: left;
-    font-size: 10px;
-}
-
-.nav-li 
-{
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.nav-link 
-{
-    color: rgb(221, 191, 18);
-    text-decoration: none;
-}
-
-.nav-link:hover 
-{
-    color: red;
-    text-decoration: none;
-}
-
-.cierre-parrafo 
-{
-    text-align: center;
-}
-
-.textos-extra
-{
-    font-family: "Titillium Web", sans-serif;
-    color: rgb(221, 191, 18);
-}
-
-.elevate{
-    text-decoration: none;
-    color: black;
-}
-
-.elevate:hover {
-    color: red;
-}
-
-.contacto {
-    text-decoration: none;
-    color: yellow;
-}
-
-.contacto:hover {
-    color: red;
-}
-
 .navbar {
-    background-color: rgb(85, 85, 79) !important;
+  background-color: rgb(85, 85, 79);
 }
 
 .navbar-toggler {
-    border-color: none;
-    outline-color: none; 
-    padding: 0;
-    transition: transform 0.3 ease;
-    border-radius: 50%;
+  border-color: none;
+  outline-color: none;
+  padding: 0;
+  transition: transform 0.3 ease;
+  border-radius: 50%;
 }
-
 .navbar-toggler:hover {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .navbar-toggler-icon {
-    border: none;
-    outline: 12px;
-    background-color: yellow;
-    border-radius: 50%;
+  border: none;
+  outline: 12px;
+  background-color: yellow;
+  border-radius: 50%;
 }
 
 .btn {
-    background-color: rgb(85, 85, 79) !important;
-    border-color: none;
-    outline-color: none; 
+  background-color: rgb(85, 85, 79);
+  border-color: none;
+  outline-color: none;
+}
+.btn:hover {
+  background-color: red;
+  border-color: none;
+  outline-color: none;
 }
 
-.btn:hover {
-    background-color: red !important;
-    border-color: none;
-    outline-color: none; 
+.nav-link {
+  color: rgb(221, 191, 18);
+  text-decoration: none;
 }
+.nav-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+title {
+  text-align: center;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+}
+
+p {
+  color: rgb(221, 191, 18);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 33px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(151, 12, 12);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(151, 12, 12);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(196, 94, 11);
+}
+
+.p-alt {
+  text-align: left;
+  font-size: 22px;
+}
+
+.p-advertencia {
+  text-align: left;
+  font-size: 10px;
+}
+
+.nav-li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.cierre-parrafo {
+  text-align: center;
+}
+
+.textos-extra {
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(221, 191, 18);
+}
+
+.elevate {
+  text-decoration: none;
+  color: black;
+}
+.elevate:hover {
+  color: red;
+}
+
+.contacto {
+  text-decoration: none;
+  color: yellow;
+}
+.contacto:hover {
+  color: red;
+}
+
+footer p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
