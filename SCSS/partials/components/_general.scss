@@ -87,3 +87,28 @@ body
     color: variables.$p-red;
     }
 }
+
+
+//MEDIA QUERIES PARA TEXTO EN MOBILE 
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: smaller;
+  }
+
+  .p-alt {
+    font-size: smaller;
+  }
+
+  .p-advertencia{
+    font-size: 8px;
+  }
+
+}

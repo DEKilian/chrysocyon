@@ -5,3 +5,11 @@ footer {
         font-size: 12px;
     }
 }
+
+@media (max-width: 768px) {
+    footer {
+        p {
+            font-size: 8px;
+        }
+    }
+}

@@ -125,10 +125,33 @@ body {
   color: #bb130d;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: smaller;
+  }
+  .p-alt {
+    font-size: smaller;
+  }
+  .p-advertencia {
+    font-size: 8px;
+  }
+}
 footer p {
   text-align: center;
   color: aliceblue;
   font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  footer p {
+    font-size: 8px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
