@@ -1,0 +1,13 @@
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
+.card-container {
+   @include mixins.flex (row, space-around, center);
+
+    .card {
+        background-color: variables.$p-otherorange;
+        border: 2px solid black;
+        margin: 4px;
+        padding: 10px;
+    }
+}

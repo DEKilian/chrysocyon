@@ -1,0 +1,21 @@
+@use "../utilities/variables";
+
+.btn {
+    background-color: rgb(85, 85, 79);
+    border-color: none;
+    outline-color: none; 
+    border-radius: 3%;
+    padding: 8px;
+
+    &:hover {
+    background-color: variables.$p-red;
+    border-color: none;
+    outline-color: none; 
+    }
+}
+
+.secondary {
+
+    @extend.btn;
+    
+}

@@ -24,18 +24,6 @@
     border-radius: 50%;
 }
 
-.btn {
-    background-color: rgb(85, 85, 79);
-    border-color: none;
-    outline-color: none; 
-
-    &:hover {
-    background-color: variables.$p-red;
-    border-color: none;
-    outline-color: none; 
-    }
-}
-
 .nav-link 
 {
     color: variables.$p-yellow;

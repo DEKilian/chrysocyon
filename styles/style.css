@@ -29,17 +29,6 @@
   border-radius: 50%;
 }
 
-.btn {
-  background-color: rgb(85, 85, 79);
-  border-color: none;
-  outline-color: none;
-}
-.btn:hover {
-  background-color: #bb130d;
-  border-color: none;
-  outline-color: none;
-}
-
 .nav-link {
   color: rgb(230, 198, 18);
   text-decoration: none;
@@ -125,7 +114,7 @@ body {
   color: #bb130d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 24px;
   }
@@ -142,13 +131,39 @@ body {
     font-size: 8px;
   }
 }
+.btn, .secondary {
+  background-color: rgb(85, 85, 79);
+  border-color: none;
+  outline-color: none;
+  border-radius: 3%;
+  padding: 8px;
+}
+.btn:hover, .secondary:hover {
+  background-color: #bb130d;
+  border-color: none;
+  outline-color: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-container .card {
+  background-color: rgb(235, 135, 21);
+  border: 2px solid black;
+  margin: 4px;
+  padding: 10px;
+}
+
 footer p {
   text-align: center;
   color: aliceblue;
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   footer p {
     font-size: 8px;
   }
