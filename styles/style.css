@@ -8,7 +8,7 @@
 
 /*font-family: "Titillium Web", sans-serif;*/
 .navbar {
-  background-color: rgb(85, 85, 79);
+  background-image: linear-gradient(to right, grey, orange);
 }
 
 .navbar-toggler {
@@ -69,7 +69,7 @@ p {
 h1 {
   color: #bb130d;
   font-family: "Titillium Web", sans-serif;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .p-advertencia {
   text-align: left;
-  font-size: 33px;
+  font-size: 12px;
 }
 
 .nav-li {
