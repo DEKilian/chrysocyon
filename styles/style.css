@@ -25,16 +25,16 @@
 .navbar-toggler-icon {
   border: none;
   outline: 12px;
-  background-color: rgb(230, 198, 18);
+  background-color: #3D3401;
   border-radius: 50%;
 }
 
 .nav-link {
-  color: rgb(230, 198, 18);
+  color: #3D3401;
   text-decoration: none;
 }
 .nav-link:hover {
-  color: #bb130d;
+  color: #5E0D00;
   text-decoration: none;
 }
 
@@ -49,28 +49,28 @@ a {
 }
 
 p {
-  color: rgb(230, 198, 18);
+  color: #3D3401;
   font-family: "Ubuntu", sans-serif;
   font-size: 33px;
   text-align: center;
 }
 
 h1 {
-  color: #bb130d;
+  color: #5E0D00;
   font-family: "Titillium Web", sans-serif;
   font-size: 48px;
   font-weight: bold;
 }
 
 h2 {
-  color: #bb130d;
+  color: #5E0D00;
   font-family: "Titillium Web", sans-serif;
   font-size: 36px;
   text-decoration: underline;
 }
 
 body {
-  background-color: rgb(196, 94, 11);
+  background-color: #F47B10;
 }
 
 .p-alt {
@@ -94,7 +94,7 @@ body {
 
 .textos-extra {
   font-family: "Titillium Web", sans-serif;
-  color: rgb(230, 198, 18);
+  color: #3D3401;
 }
 
 .elevate {
@@ -103,15 +103,15 @@ body {
   font-weight: bold;
 }
 .elevate:hover {
-  color: #bb130d;
+  color: #5E0D00;
 }
 
 .contacto {
   text-decoration: none;
-  color: rgb(230, 198, 18);
+  color: #3D3401;
 }
 .contacto:hover {
-  color: #bb130d;
+  color: #5E0D00;
 }
 
 @media (max-width: 900px) {
@@ -139,7 +139,7 @@ body {
   padding: 8px;
 }
 .btn:hover, .secondary:hover {
-  background-color: #bb130d;
+  background-color: #5E0D00;
   border-color: none;
   outline-color: none;
 }
@@ -151,7 +151,7 @@ body {
   align-items: center;
 }
 .card-container .card {
-  background-color: rgb(235, 135, 21);
+  background-color: #FF722F;
   border: 2px solid black;
   margin: 4px;
   padding: 10px;
