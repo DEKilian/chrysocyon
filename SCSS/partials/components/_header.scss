@@ -20,14 +20,13 @@
 .navbar-toggler-icon {
     border: none;
     outline: 12px;
-    background-color: variables.$p-yellow;
+    background-color: variables.$p-navcolor;
     border-radius: 50%;
 }
 
 .nav-link 
 {
     color: variables.$p-yellow;
-    text-decoration: none;
 
     &:hover {
     color: variables.$p-red;

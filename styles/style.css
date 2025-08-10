@@ -25,13 +25,12 @@
 .navbar-toggler-icon {
   border: none;
   outline: 12px;
-  background-color: #3D3401;
+  background-color: rgb(179, 179, 70);
   border-radius: 50%;
 }
 
 .nav-link {
   color: #3D3401;
-  text-decoration: none;
 }
 .nav-link:hover {
   color: #5E0D00;
